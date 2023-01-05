@@ -1,21 +1,20 @@
-# TypeScript + Webpack + Three.js template
+# TypeScript + Tweakpane + Cannon + Webpack + Three.js template
 
-A minimalistic template for Three.js projects
 
 
 ## Installing dependencies
 
-    npm i
+    yarn 
 
 ## Running the project in watch mode
 
-    npm start
+    yarn start
 
 ## Building the project
 
-    npm run build
+    yarn build
 
 ## Linting the code
 
-    npm run lint
+    yarn lint
 
