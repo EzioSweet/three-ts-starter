@@ -22,7 +22,12 @@ export default {
     rules: [
       {
         test: /\.ts$/,
-        use: 'ts-loader',
+        use: {
+          loader:"@sucrase/webpack-loader",
+          options:{
+            transforms:['typescript']
+          }
+        },
         exclude: /node_modules/
       },
     ]
